@@ -1,0 +1,76 @@
+.back-button {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.palette-colors {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+
+.palette-colors>div {
+    width: 20%;
+    height: 20vmin;
+    animation: light 0.6s ease-in-out;
+}
+
+.tooltip {
+    font-size: 20px;
+    border: 2px solid white;
+    justify-self: center;
+    align-self: center;
+    border-radius: 20px;
+    visibility: hidden;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    z-index: 1;
+    top: 50%;
+}
+
+.palette-colors>div:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+@keyframes light {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.selected-color-panel {
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    font-size: large;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    visibility: hidden;
+}

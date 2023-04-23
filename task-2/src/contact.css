@@ -1,0 +1,45 @@
+.title {
+    margin-top: 60px;
+    position: relative;
+    font-size: 38px;
+}
+
+.align-center {
+    text-align: center;
+    align-self: center;
+}
+
+form {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    align-items: center;
+    height: 350px;
+    width: 450px;
+    background: #F4F6FC;
+    color: black;
+    margin: 0 auto;
+}
+
+.grid {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.message-field {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    width: 100%;
+}
+
+.rounded-button {
+    font-size: medium;
+    border-radius: 20px;
+}
+
+.field {
+    margin-top: 5px;
+}

@@ -1,0 +1,50 @@
+.grid-panel {
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    height: 290px;
+    width: 100%;
+    right: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.under-nav-panel {
+    margin-top: 50px;
+}
+
+.panel-gray {
+    background: #F4F6FC;
+}
+
+.first-column-grid-nav-option {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.first-column-grid-title {
+    font-size: 38px;
+}
+
+.align-left {
+    text-align: left;
+    align-self: center;
+}
+
+.grid-image {
+    padding-bottom: 50px;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+.g-c-1 {
+    margin: 5%;
+    grid-column: 1;
+}
+
+.g-c-2 {
+    margin: 5%;
+    grid-column: 2;
+}
